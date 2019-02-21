@@ -9,7 +9,7 @@ function nameToAttributes(profile_user){
     const user_infoFirst = user_info.split(' ')[0];
     const user_infoLast = user_info.split(' ')[1];
 
-    return { firstName: user_infoFirst, lastName: user_infoLast };
+    return {firstName: user_infoFirst, lastName: user_infoLast};
   });
 }
 
